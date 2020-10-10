@@ -1,0 +1,12 @@
+11
+2 START E $
+2 E T E'
+3 E' + T E'
+3 E' - T E'
+1 E' epsilon
+2 T F T'
+3 T' * F T'
+3 T' / F T'
+1 T' epsilon
+3 F ( E )
+1 F id

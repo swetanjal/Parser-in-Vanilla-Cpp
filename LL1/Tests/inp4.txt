@@ -1,0 +1,7 @@
+6
+2 START S $
+5 S i E t S S'
+1 S a
+2 S' e S
+1 S' epsilon
+1 E b 

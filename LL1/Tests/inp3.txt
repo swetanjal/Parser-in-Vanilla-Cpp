@@ -1,0 +1,7 @@
+6
+2 S' S $
+1 S A
+1 S B
+2 A B a
+2 B A b
+1 B epsilon
