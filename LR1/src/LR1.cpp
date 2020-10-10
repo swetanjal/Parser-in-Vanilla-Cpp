@@ -335,10 +335,14 @@ int main()
                             tmp.push_back(c);
                         tmp.push_back(ch);
 
-                        closure.insert({item[pos + 1], tmp});
-                        lhs.push_back(item[pos + 1]);
-                        rhs.push_back(tmp);
-                        dot_pos.push_back(0);
+                        if(closure.find({item[pos + 1], tmp}) == closure.end())
+                        {
+                            closure.insert({item[pos + 1], tmp});
+                            lhs.push_back(item[pos + 1]);
+                            rhs.push_back(tmp);
+                            dot_pos.push_back(0);
+                        }
+                        
                     }
                 }
         }
